@@ -16,6 +16,7 @@ import java.util.Map;
 
 /**
  * fastjson 封装
+ * @author bingyi
  */
 public class FastJsonUtils {
     private final static Logger logger = LoggerFactory.getLogger(FastJsonUtils.class);
