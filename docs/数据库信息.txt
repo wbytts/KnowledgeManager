@@ -1,6 +1,7 @@
-wangby�İ��������ݿ⣺
+wangby的阿里云数据库：
 
-39.96.162.54
-�˿ڣ�3306
-�û�����root
-���룺qweqwe
+MySQL
+ip:39.96.162.54
+端口：3306
+用户名：root
+密码：qweqwe
