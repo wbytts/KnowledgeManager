@@ -1,2 +1,2 @@
 # KnowledgeManager
-知识管理系统
+知识文档管理系统
