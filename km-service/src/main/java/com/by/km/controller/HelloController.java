@@ -23,7 +23,7 @@ public class HelloController {
 
     @RequestMapping("/hello")
     @ResponseBody
-    @ApiOperation(value="测试接口", notes="测试接口详细描述")
+    @ApiOperation(value="测试接口", notes="测试接口详细描述", httpMethod = "GET")
     String hello() {
         List<Demo> demos = demoService.queryAll();
         return FastJsonUtils.obj2json(demos, true);

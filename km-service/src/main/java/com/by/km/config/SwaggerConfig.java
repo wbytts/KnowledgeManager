@@ -20,6 +20,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  * SwaggerConfig
+ * @author bingyi
  */
 @Configuration
 @EnableSwagger2 // 启用 Swagger
