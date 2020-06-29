@@ -1,0 +1,18 @@
+server:
+  port: 8801
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://39.96.162.54:3306/km?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8 #&useSSL=true
+    username: root
+    password: qweqwe
+
+  jpa:
+    properties:
+      hibernate:
+        hbm2ddl:
+          auto: update
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+        format_sql: false
+    show-sql: true
