@@ -15,6 +15,7 @@ class KmApplicationTests {
     @Test
     void contextLoads() {
         System.out.println(demoRepository.findAll());
+
     }
 
 }
